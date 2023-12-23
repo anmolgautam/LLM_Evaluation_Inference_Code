@@ -1,4 +1,3 @@
-markdown
 # Large Language Model Inference
 
 This repository contains code for performing inference using a large language model (LLM) on a set of questions. The script takes a CSV file with questions, runs them through the model, and generates answers for each question multiple times.
