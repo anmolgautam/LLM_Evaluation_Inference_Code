@@ -28,7 +28,7 @@ pip install pandas transformers torch
 Run the script from the command line, providing the necessary arguments:
 
 ```bash
-python inference_script.py --model <model_name> --start <start_index> --end <end_index> --device <device_id> --batch_size <batch_size> --k_times <k_times> --gsm_test_file_path <file_path>
+python k_shot_batched_inference.py --model <model_name> --start <start_index> --end <end_index> --device <device_id> --batch_size <batch_size> --k_times <k_times> --gsm_test_file_path <file_path>
 ```
 
 ### Arguments
